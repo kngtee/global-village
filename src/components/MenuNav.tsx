@@ -15,7 +15,7 @@ const MenuNav = () => {
   };
 
   return (
-    <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700/80">
+    <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-gray-400">
       <div className="container px-4 mx-auto relative text-sm">
         <div className="flex justify-between items-center">
           {/* Logo */}
@@ -48,7 +48,7 @@ const MenuNav = () => {
             <Button className="bg-[#262c36]">Join Our Team</Button>
           </div>
           {/* Mobile toggle */}
-          <div className="lg:hidden md:flex flex-col justify-end ">
+          <div className="lg:hidden md:flex flex-col justify-end">
             <Button
               variant="outline"
               size="icon"
@@ -60,7 +60,7 @@ const MenuNav = () => {
           </div>
         </div>
         {mobileDrawerOpen && (
-          <div className="fixed right-0 z-20 bg-[#f4f5f6] w-full p-12 flex flex-col justify-center items-center lg:hidden">
+          <div className="fixed right-0 z-20 bg-[#f4f5f6] w-full p-12 flex flex-col justify-center items-center border-b border-gray-300 shadow-md lg:hidden">
             <ul>
               {navItems.map((item, index) => (
                 <li key={index} className="py-4">

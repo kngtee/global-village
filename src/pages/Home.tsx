@@ -1,11 +1,13 @@
-import React from 'react'
+import { OurServices } from "../components/OurServices";
+import { HeroSection } from "../components/HeroSection";
 
 const Home = () => {
   return (
-    <div>
-        Home
-    </div>
-  )
-}
+    <>
+      <HeroSection />
+      <OurServices/>
+    </>
+  );
+};
 
-export default Home
+export default Home;

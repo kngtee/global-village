@@ -6,10 +6,10 @@ import HeroImg03 from "../assets/images/hero-img03.jpg";
 export const HeroSection = () => {
   return (
     <section className="container h-fit">
-      <div className="hidden lg:flex items-center gap-5 w-full h-[500px] bg-[#31bdc2] rounded-xl mt-10 mb-14">
+      <div className="hidden lg:flex items-center gap-5 w-full h-[500px] bg-[#31bdc2] rounded-xl mt-10 mb-20">
         {/* Left side */}
-        <div className="flex flex-col items-start justify-center ml-14">
-          <h1 className="text-[40px] leading-[60px] font-[500] tracking-tight text-[#f4f5f6]">
+        <div className="flex flex-col items-start justify-between ml-14">
+          <h1 className="text-[50px] leading-[60px] font-[600] tracking-tight text-[#f4f5f6]">
             Fostering healthier,
             <br /> happier families and communities
             <br /> throughtout Metro Atlanta
@@ -46,7 +46,7 @@ export const HeroSection = () => {
             <img
               src={HeroImg01}
               alt="Hero Image"
-              className="w-[250px] h-[300px] bg-[#262c36] rounded-md"
+              className="w-[300px] h-[300px] bg-[#262c36] rounded-md"
             />
           </figure>
         </div>

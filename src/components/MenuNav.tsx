@@ -50,10 +50,10 @@ const MenuNav = () => {
           {/* Mobile toggle */}
           <div className="lg:hidden md:flex flex-col justify-end">
             <Button
-              variant="outline"
+              variant="ghost"
               size="icon"
               onClick={toggleNav}
-              className="bg-[#f4f5f6]"
+              className="backdrop-blur-lg hover:bg-transparent"
             >
               {mobileDrawerOpen ? <X /> : <Menu />}
             </Button>

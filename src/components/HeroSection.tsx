@@ -9,7 +9,7 @@ export const HeroSection = () => {
       <div className="hidden lg:flex items-center gap-5 w-full h-[500px] bg-[#31bdc2] rounded-xl mt-10 mb-20">
         {/* Left side */}
         <div className="flex flex-col items-start justify-between ml-14">
-          <h1 className="text-[50px] leading-[60px] font-[600] tracking-tight text-[#f4f5f6]">
+          <h1 className="text-[50px] leading-[60px] font-[700] tracking-tight text-[#f4f5f6]">
             Fostering healthier,
             <br /> happier families and communities
             <br /> throughtout Metro Atlanta
@@ -53,7 +53,7 @@ export const HeroSection = () => {
       </div>
       {/* Mobile view */}
       <div className="lg:hidden md:flex pb-14 text-center items-center justify-center mt-14">
-        <span className="text-[44px] leading-[54px] tracking-tight font-[500]">
+        <span className="text-[44px] leading-[54px] tracking-tight font-[700]">
           Fostering Healthier, Happier Families and Communities Throughtout
           Metro Atlanta
         </span>

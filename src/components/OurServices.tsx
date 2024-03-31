@@ -6,14 +6,14 @@ export const OurServices = () => {
   const [viewAll, setViewAll] = useState<boolean>(false);
   return (
     <section className="container h-fit">
-      <div className="flex flex-col m-10 items-center justify-center">
+      <div className="flex flex-col m-10 items-center justify-center py-12">
         <span className="text-[16px] text-black">Our Services</span>
         {/* Services */}
         <div className="grid grid-cols-2 gap-6 lg:grid lg:grid-cols-3 lg:gap-10 mt-6">
           {serviceItems
             .slice(0, viewAll ? serviceItems.length : 6)
             .map((item, index) => (
-              <div key={index} className="flex flex-col mb-4 lg:mb-8">
+              <div key={index} className="flex flex-col cursor-pointer mb-4 lg:mb-8">
                 <figure className="">
                   <img
                     src={item.img}

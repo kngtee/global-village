@@ -49,7 +49,7 @@ export const HeroSection = () => {
               src={HeroImg01}
               alt="Hero Image"
               loading="lazy"
-              className="w-[300px] h-[300px] bg-[#262c36] rounded-md"
+              className="w-[300px] h-[300px] object-cover rounded-md"
             />
           </figure>
         </div>

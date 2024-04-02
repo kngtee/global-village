@@ -89,6 +89,7 @@
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }
@@ -105,4 +106,15 @@
 body {
   font-family: 'Poppins', sans-serif;
 
+}
+
+.bgImg {
+  background-size: cover;
+  background-image: url('./assets/images/coming-soon.jpg');
+}
+
+.background-tint {
+  background-color: #262c36 !important;
+  opacity: 0.9;
+  background-blend-mode: multiply;
 }

@@ -14,14 +14,14 @@ export const ContactUs = () => {
             <div className="mt-6 flex flex-col gap-3">
               <a
                 href="#"
-                className="text-lg leading-[24px] font-bold text-[#31bdc2]"
+                className="text-[18px] leading-[24px] font-bold text-[#31bdc2]"
               >
                 <span className="text-[#262c36]">Email:</span>{" "}
                 Mike.Okoli@globalvillageassociatesllc.com
               </a>
               <a
                 href="#"
-                className="text-lg leading-[24px] font-bold text-[#31bdc2]"
+                className="text-[18px] leading-[24px] font-bold text-[#31bdc2]"
               >
                 <span className="text-[#262c36]">Phone:</span> 404-230-8425
               </a>

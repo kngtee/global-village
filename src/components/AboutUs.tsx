@@ -10,22 +10,34 @@ export const AboutUs = () => {
             Welcome to the Global Village!
           </h1>
           <p className="text-[16px] leading-[24px] font-light tracking-tight">
-            Global Village is a private, community-based facility. Established
-            in 2008, we provide an array of mental/behavioral health services to
-            help a diverse population of children, adolescents, adults, and
-            their families navigate common and complex issues. We believe all
-            individuals deserve a stable environment conducive to their needs.
-            It is our mission to provide assistance to enhance health and
-            wellness because mental health is a priority, happiness is
-            essential, and self care is a necessity. Are you familiar with your
-            mental/behavioral health status and willing to accept treatment?
+            At Global Village our comprehensive healthcare agency caters to
+            diverse needs, offering specialized behavior health services in
+            supporting various populations, including the elderly, individuals
+            with traumatic brain injuries, those with intellectual and
+            developmental disabilities, mental health, drug addiction, refugees,
+            and children. For the elderly, our services prioritize promoting
+            independence, addressing age-related challenges, and ensuring a high
+            quality of life. Individuals with traumatic brain injuries benefit
+            from personalized rehabilitation programs aimed at restoring
+            functional abilities and fostering independence.
+          </p>
+          <p>
+            We are committed to creating inclusive and supportive environments
+            for individuals with intellectual and developmental disabilities,
+            focusing on skill development and community integration. Recognizing
+            the importance of early intervention, our services for children aim
+            to provide a nurturing and stimulating environment to support their
+            holistic growth. With a client-centered approach, our goal is to
+            meet the unique needs of each demographic, ensuring that individuals
+            of all ages and abilities receive the specialized care and attention
+            required for their well-being.
           </p>
         </div>
         <figure className="w-full">
           <img
             src={AboutImg}
             alt="about us"
-            className="shadow-md rounded-md object-cover h-[300px] w-full lg:h-[400px]"
+            className="shadow-md rounded-md object-cover h-[300px] w-full lg:h-[500px]"
           />
         </figure>
       </div>

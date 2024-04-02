@@ -8,21 +8,23 @@ export const ContactUs = () => {
               Contact Us Today!
             </h2>
             <p className="text-[16px] leading-[24px] font-light tracking-tight">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio ea
-              omnis eveniet? Lorem ipsum dolor sit, amet consectetur adipisicing
-              elit. Libero asperiores dicta rerum illo dolore autem hic in
-              voluptatum et dolorum!
+              260 Peachtree Street NW Atlanta, GA 30303
             </p>
 
-            <div className="mt-8">
-              <a href="#" className="text-2xl font-bold text-[#31bdc2]">
-                {" "}
-                0151 475 4450{" "}
+            <div className="mt-6 flex flex-col gap-3">
+              <a
+                href="#"
+                className="text-lg leading-[24px] font-bold text-[#31bdc2]"
+              >
+                <span className="text-[#262c36]">Email:</span>{" "}
+                Mike.Okoli@globalvillageassociatesllc.com
               </a>
-
-              <address className="mt-2 not-italic">
-                282 Kevin Brook, Imogeneborough, CA 58517
-              </address>
+              <a
+                href="#"
+                className="text-lg leading-[24px] font-bold text-[#31bdc2]"
+              >
+                <span className="text-[#262c36]">Phone:</span> 404-230-8425
+              </a>
             </div>
           </div>
 

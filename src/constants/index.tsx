@@ -5,8 +5,8 @@ import ServiceImg03 from "../assets/images/img03.jpg";
 export const navItems = [
   { label: "About Us", href: "#" },
   { label: "Services", href: "#" },
-  { label: "Our Team", href: "#" },
-  { label: "Referrals", href: "#" },
+  // { label: "Our Team", href: "#" },
+  { label: "Coming Soon", href: "#" },
   { label: "Contact Us", href: "#" },
 ];
 

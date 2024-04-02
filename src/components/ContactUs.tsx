@@ -11,17 +11,17 @@ export const ContactUs = () => {
               260 Peachtree Street NW Atlanta, GA 30303
             </p>
 
-            <div className="mt-6 flex flex-col gap-3">
+            <div className="mt-4 flex flex-col gap-3">
               <a
                 href="#"
-                className="text-[18px] leading-[24px] font-bold text-[#31bdc2]"
+                className="text-[16px] leading-[24px] font-bold text-[#31bdc2]"
               >
                 <span className="text-[#262c36]">Email:</span>{" "}
                 Mike.Okoli@globalvillageassociatesllc.com
               </a>
               <a
                 href="#"
-                className="text-[18px] leading-[24px] font-bold text-[#31bdc2]"
+                className="text-[16px] leading-[24px] font-bold text-[#31bdc2]"
               >
                 <span className="text-[#262c36]">Phone:</span> 404-230-8425
               </a>

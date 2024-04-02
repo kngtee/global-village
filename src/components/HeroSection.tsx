@@ -31,6 +31,7 @@ export const HeroSection = () => {
               <img
                 src={HeroImg03}
                 alt="Hero Image"
+                loading="lazy"
                 className="w-[300px] h-[200px] object-cover rounded-md"
               />
             </figure>
@@ -38,6 +39,7 @@ export const HeroSection = () => {
               <img
                 src={HeroImg02}
                 alt="Hero Image"
+                loading="lazy"
                 className="w-[300px] h-[200px] object-cover rounded-md"
               />
             </figure>
@@ -46,6 +48,7 @@ export const HeroSection = () => {
             <img
               src={HeroImg01}
               alt="Hero Image"
+              loading="lazy"
               className="w-[300px] h-[300px] bg-[#262c36] rounded-md"
             />
           </figure>

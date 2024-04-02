@@ -18,6 +18,7 @@ export const OurServices = () => {
                   <img
                     src={item.img}
                     alt=""
+                    loading="lazy"
                     className="w-[200px] h-[150px] lg:w-[300px] lg:h-[300px] object-cover shadow-md rounded-md"
                   />
                 </figure>

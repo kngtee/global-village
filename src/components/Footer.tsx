@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="absolute end-4 top-4 sm:end-6 sm:top-6 lg:end-8 lg:top-8">
           <a
             className="inline-block rounded-full bg-[#f4f5f6] p-2 text-[262c36] shadow transition hover:bg-[#f4f5f6]/80 sm:p-3 lg:p-4"
-            href="#MainContent"
+            href="#home"
           >
             <span className="sr-only">Back to top</span>
 

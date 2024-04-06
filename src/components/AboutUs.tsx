@@ -2,8 +2,8 @@ import AboutImg from "../assets/images/img15.jpg";
 
 export const AboutUs = () => {
   return (
-    <section className="container h-fit bg-[#262c36]/5">
-      <div className="items-center justify-center pt-12 pb-24 space-y-12 lg:grid lg:grid-cols-2 lg:gap-[50px]">
+    <section className="h-fit bg-[#262c36]/5" id="about-us">
+      <div className="container items-center justify-center pt-12 pb-24 space-y-12 lg:grid lg:grid-cols-2 lg:gap-[50px]">
         <div className="flex flex-col gap-[15px]">
           <h4 className="text-[16px] leading-[26px]">About Us</h4>
           <h1 className="text-[40px] leading-[50px] font-bold">

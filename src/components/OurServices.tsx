@@ -5,7 +5,7 @@ import { Button } from "./ui/button";
 export const OurServices = () => {
   const [viewAll, setViewAll] = useState<boolean>(false);
   return (
-    <section className="container h-fit">
+    <section className="container h-fit" id="services">
       <div className="flex flex-col m-10 items-center justify-center py-12">
         <span className="text-[16px] text-black">Our Services</span>
         {/* Services */}
@@ -13,7 +13,10 @@ export const OurServices = () => {
           {serviceItems
             .slice(0, viewAll ? serviceItems.length : 6)
             .map((item, index) => (
-              <div key={index} className="flex flex-col cursor-pointer mb-4 lg:mb-8">
+              <div
+                key={index}
+                className="flex flex-col cursor-pointer mb-4 lg:mb-8"
+              >
                 <figure className="">
                   <img
                     src={item.img}

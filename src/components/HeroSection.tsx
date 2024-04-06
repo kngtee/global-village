@@ -5,7 +5,7 @@ import HeroImg03 from "../assets/images/hero-img03.jpg";
 
 export const HeroSection = () => {
   return (
-    <section className="container h-fit">
+    <section className="container h-fit" id="home">
       <div className="hidden lg:flex items-center gap-5 w-full h-[500px] bg-[#31bdc2] rounded-xl mt-10 mb-20">
         {/* Left side */}
         <div className="flex flex-col items-start justify-between ml-14">
@@ -17,6 +17,7 @@ export const HeroSection = () => {
           <div className="flex gap-6 mt-6">
             <Button
               variant="ghost"
+              id="about-us"
               className="border border-[#f4f5f6] text-[#f4f5f6]"
             >
               Learn More

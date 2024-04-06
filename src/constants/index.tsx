@@ -9,11 +9,11 @@ import ServiceImg08 from "../assets/images/img11.jpg";
 import ServiceImg09 from "../assets/images/img16.jpg";
 
 export const navItems = [
-  { label: "About Us", href: "#" },
-  { label: "Services", href: "#" },
+  { label: "About Us", href: "#about-us" },
+  { label: "Services", href: "#services" },
   // { label: "Our Team", href: "#" },
-  { label: "Coming Soon", href: "#" },
-  { label: "Contact Us", href: "#" },
+  { label: "Coming Soon", href: "#coming-soon" },
+  { label: "Contact Us", href: "#contact-us" },
 ];
 
 type serviceType = {

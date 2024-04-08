@@ -3,7 +3,7 @@ import AboutImg from "../assets/images/img14.svg";
 const AboutUs = () => {
   return (
     <>
-      <section className="container h-fit" id="coming-soon">
+      <section className="container h-fit" >
         <div className="flex items-center justify-center gap-5 w-full h-[250px] lg:h-[500px] bgAbt background-tint rounded-xl mt-10 mb-10 p-5">
           <h1 className="text-[50px] leading-[40px] lg:text-[100px] lg:leading-[90px] font-bold tracking-tight text-[#f4f5f6]">
             About Us
@@ -38,7 +38,7 @@ const AboutUs = () => {
           </p>
         </div>
       </section>
-      <section className="h-fit bg-[#262c36]/5" id="about-us">
+      <section className="h-fit bg-[#262c36]/5" >
         <div className="container items-center justify-center py-24 space-y-12 lg:grid lg:grid-cols-2 lg:gap-[50px]">
           <figure className="w-full">
             <img

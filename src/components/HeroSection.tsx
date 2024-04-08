@@ -24,7 +24,7 @@ export const HeroSection = () => {
             >
               Learn More
             </Button>
-            <Button>Join Our Team</Button>
+            <Button onClick={() => navigate("/join-team")}>Join Our Team</Button>
           </div>
         </div>
         {/* Right side */}

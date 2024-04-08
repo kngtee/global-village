@@ -24,7 +24,7 @@ const Services = () => {
             Our services include:
           </p>
           {/* Services */}
-          <div className="flex items-center justify-center mt-10">
+          <div className="flex items-center justify-center mt-5">
             <div className="grid grid-cols-2 gap-6 lg:grid lg:grid-cols-3 lg:gap-10 mt-6">
               {serviceItems.slice(0, serviceItems.length).map((item, index) => (
                 <div

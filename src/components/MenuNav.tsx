@@ -45,7 +45,12 @@ const MenuNav = () => {
             >
               Contact Us
             </a> */}
-            <Button className="bg-[#262c36]">Join Our Team</Button>
+            <Button
+              className="bg-[#262c36]"
+              onClick={() => navigate("/join-team")}
+            >
+              Join Our Team
+            </Button>
           </div>
           {/* Mobile toggle */}
           <div className="lg:hidden md:flex flex-col justify-end">
@@ -64,12 +69,17 @@ const MenuNav = () => {
             <ul>
               {navItems.map((item, index) => (
                 <li key={index} className="py-4">
-                  <a href={item.link}>{item.label}</a>
+                  <a onClick={() => navigate(item.link)}>{item.label}</a>
                 </li>
               ))}
             </ul>
             <div className="flex mt-4">
-              <Button className="bg-[#262c36]">Join Our Team</Button>
+              <Button
+                className="bg-[#262c36]"
+                onClick={() => navigate("/join-team")}
+              >
+                Join Our Team
+              </Button>
             </div>
           </div>
         )}

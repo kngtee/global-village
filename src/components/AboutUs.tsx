@@ -1,6 +1,9 @@
+import { useNavigate } from "react-router-dom";
 import AboutImg from "../assets/images/img15.jpg";
+import { Button } from "./ui/button";
 
 export const AboutUs = () => {
+  const navigate = useNavigate();
   return (
     <section className="h-fit bg-[#262c36]/5" id="about-us">
       <div className="container items-center justify-center pt-12 pb-24 space-y-12 lg:grid lg:grid-cols-2 lg:gap-[50px]">
@@ -9,7 +12,7 @@ export const AboutUs = () => {
           <h1 className="text-[40px] leading-[50px] font-bold">
             Welcome to the Global Village!
           </h1>
-          <p className="text-[16px] leading-[24px] font-light tracking-tight">
+          <p className="text-[16px] leading-[24px] font-light tracking-tight mb-5">
             At Global Village our comprehensive healthcare agency caters to
             diverse needs, offering specialized behavior health services in
             supporting various populations, including the elderly, individuals
@@ -21,23 +24,15 @@ export const AboutUs = () => {
             from personalized rehabilitation programs aimed at restoring
             functional abilities and fostering independence.
           </p>
-          <p>
-            We are committed to creating inclusive and supportive environments
-            for individuals with intellectual and developmental disabilities,
-            focusing on skill development and community integration. Recognizing
-            the importance of early intervention, our services for children aim
-            to provide a nurturing and stimulating environment to support their
-            holistic growth. With a client-centered approach, our goal is to
-            meet the unique needs of each demographic, ensuring that individuals
-            of all ages and abilities receive the specialized care and attention
-            required for their well-being.
-          </p>
+          <Button className="lg:w-[50%]" onClick={() => navigate("/about-us")}>
+            Learn More
+          </Button>
         </div>
         <figure className="w-full">
           <img
             src={AboutImg}
             alt="about us"
-            className="shadow-md rounded-md object-cover h-[300px] w-full lg:h-[500px]"
+            className="shadow-md rounded-md object-cover h-[300px] w-full lg:h-[400px]"
           />
         </figure>
       </div>

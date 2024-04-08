@@ -1,14 +1,15 @@
-import Layout from './layout/Layout'
+import ScrollToTop from "./helpers/scrollTop";
+import Layout from "./layout/Layout";
 
 function App() {
-
   return (
     <>
-     <main>
-      <Layout/>
-     </main>
+      <main>
+        <ScrollToTop />
+        <Layout />
+      </main>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

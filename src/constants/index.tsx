@@ -4,16 +4,16 @@ import ServiceImg03 from "../assets/images/img03.jpg";
 import ServiceImg04 from "../assets/images/img06.jpg";
 import ServiceImg05 from "../assets/images/img08.jpg";
 import ServiceImg06 from "../assets/images/img13.jpg";
-import ServiceImg07 from "../assets/images/img14.jpg";
+import ServiceImg07 from "../assets/images/img14.svg";
 import ServiceImg08 from "../assets/images/img11.jpg";
 import ServiceImg09 from "../assets/images/img16.jpg";
 
 export const navItems = [
-  { label: "About Us", href: "#about-us" },
-  { label: "Services", href: "#services" },
+  { label: "About Us", link: "/about-us" },
+  { label: "Services", link: "/services" },
   // { label: "Our Team", href: "#" },
-  { label: "Coming Soon", href: "#coming-soon" },
-  { label: "Contact Us", href: "#contact-us" },
+  { label: "Coming Soon", link: "/coming-soon" },
+  { label: "Contact Us", link: "/contact-us" },
 ];
 
 type serviceType = {

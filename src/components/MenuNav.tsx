@@ -32,8 +32,8 @@ const MenuNav = () => {
           {/* Menu */}
           <ul className="hidden lg:flex ml-14 space-x-12">
             {navItems.map((item, index) => (
-              <li key={index}>
-                <a href={item.href}>{item.label}</a>
+              <li key={index} className="cursor-pointer">
+                <a onClick={() => navigate(item.link)}>{item.label}</a>
               </li>
             ))}
           </ul>
@@ -64,7 +64,7 @@ const MenuNav = () => {
             <ul>
               {navItems.map((item, index) => (
                 <li key={index} className="py-4">
-                  <a href={item.href}>{item.label}</a>
+                  <a href={item.link}>{item.label}</a>
                 </li>
               ))}
             </ul>

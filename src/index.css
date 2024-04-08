@@ -113,6 +113,11 @@ body {
   background-image: url('./assets/images/coming-soon.jpg');
 }
 
+.bgAbt{
+  background-size: cover;
+  background-image: url('./assets/images/img15.jpg');
+}
+
 .background-tint {
   background-color: #262c36 !important;
   opacity: 0.9;

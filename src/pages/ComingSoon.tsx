@@ -12,7 +12,7 @@ const ComingSoon = () => {
       </div>
       <div className="h-fit" id="about-us">
         <div className="container items-center justify-center py-24 space-y-12 lg:flex lg:items-start">
-          <figure className="sm:hidden w-full">
+          <figure className="w-full">
             <img
               src={AboutImg}
               alt="about us"

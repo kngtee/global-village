@@ -68,7 +68,7 @@ const MenuNav = () => {
           <div className="fixed right-0 z-20 bg-[#f4f5f6] w-full p-12 flex flex-col justify-center items-center border-b border-gray-300 shadow-md lg:hidden">
             <ul>
               {navItems.map((item, index) => (
-                <li key={index} className="py-4">
+                <li key={index} className="py-4 cursor-pointer">
                   <a onClick={() => navigate(item.link)}>{item.label}</a>
                 </li>
               ))}

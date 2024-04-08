@@ -1,7 +1,7 @@
 import { OurServices } from "../components/OurServices";
 import { HeroSection } from "../components/HeroSection";
 import { AboutUs } from "../components/AboutUs";
-import { ContactUs } from "../components/ContactUs";
+import OurContact from "../components/OurContact";
 import { ComingSoon } from "../components/ComingSoon";
 
 const Home = () => {
@@ -11,7 +11,7 @@ const Home = () => {
       <AboutUs />
       <OurServices />
       <ComingSoon />
-      <ContactUs />
+      <OurContact />
     </>
   );
 };

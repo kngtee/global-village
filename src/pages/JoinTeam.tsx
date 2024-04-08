@@ -2,7 +2,7 @@ const JoinTeam = () => {
   return (
     <>
       <section className="container h-fit">
-        <div className="flex items-center justify-center gap-5 w-full h-[250px] lg:h-[500px] bgAbt background-tint rounded-xl mt-10 mb-10 p-5">
+        <div className="flex items-center justify-center gap-5 w-full h-[250px] lg:h-[500px] bgJoinTeam background-tint rounded-xl mt-10 mb-10 p-5">
           <h1 className="text-[50px] leading-[40px] lg:text-[100px] lg:leading-[90px] font-bold tracking-tight text-[#f4f5f6]">
             Join Our Team
           </h1>

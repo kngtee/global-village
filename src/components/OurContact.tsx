@@ -1,4 +1,4 @@
-export const ContactUs = () => {
+const OurContact = () => {
   return (
     <section className="bg-gray-100" id="contact-us">
       <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
@@ -152,3 +152,4 @@ export const ContactUs = () => {
     </section>
   );
 };
+export default OurContact;

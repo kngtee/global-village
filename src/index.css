@@ -113,9 +113,19 @@ body {
   background-image: url('./assets/images/coming-soon.jpg');
 }
 
-.bgAbt{
+.bgAbt {
   background-size: cover;
   background-image: url('./assets/images/img15.jpg');
+}
+
+.bgService {
+  background-size: cover;
+  background-image: url('./assets/images/img06.jpg');
+}
+
+.bgJoinTeam {
+  background-size: cover;
+  background-image: url('./assets/images/img04.jpg');
 }
 
 .background-tint {
